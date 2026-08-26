@@ -3,12 +3,11 @@
   <remote name="github" fetch="https://github.com/" />
   
   <project name="canmv-k230/k230_rtsmart_lib" path="src/rtsmart/libs" remote="github" revision="release/canmv-v1.7" groups="sdk" />
-  <project name="canmv-k230/mpp" path="src/rtsmart/mpp" remote="github" revision="release/canmv-v1.7" groups="sdk-special" />
-  <project name="canmv-k230/rtsmart" path="src/rtsmart/rtsmart" remote="github" revision="release/canmv-v1.7" groups="sdk" />
-  <project name="canmv-k230/u-boot" path="src/uboot/uboot" remote="github" revision="release/canmv-v1.7" groups="sdk" />
-  <project name="ETJunge/canmv_k230" path="src/canmv" groups="" remote="github" revision="dev"/>
+  <project name="ETJungek230/mpp" path="src/rtsmart/mpp" remote="github" revision="dev" />
+  <project name="ETJungek230/rtsmart" path="src/rtsmart/rtsmart" remote="github" revision="dev" />
+  <project name="ETJungek230/u-boot" path="src/uboot/uboot" remote="github" revision="dev" />
+  <project name="ETJungek230/canmv_k230" path="src/canmv" groups="" remote="github" revision="dev"/>
   <project name="kendryte/k230_rtos_sdk" path="." remote="github" revision="release/canmv-v1.7" groups="sdk_super" />
-
   <project name="DaveGamble/cJSON" path="src/rtsmart/libs/3rd-party/cjson/cJSON" remote="github" revision="fb16e5cf358798aabb049655975cde8427101056" upstream="master" dest-branch="master" groups="sdk-common" clone-depth="100" />
   <project name="canmv-k230/k230_rtsmart_examples" path="src/rtsmart/examples" remote="github" revision="a0b8400fa2914cb993b1a3cb1946681feea875e8" upstream="canmv_k230" dest-branch="canmv_k230" groups="sdk" />
   <project name="canmv-k230/mbedtls" path="src/rtsmart/libs/3rd-party/mbedtls/mbedtls" remote="github" revision="a3ff9bce6b1c554a91bb3ced0f83046442a1694c" upstream="canmv_k230" dest-branch="canmv_k230" groups="sdk-common" clone-depth="10" />
